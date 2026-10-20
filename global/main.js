@@ -1,17 +1,17 @@
 //loading emoji images
 function preload() {
-  obstacleEmoji = loadImage("../assets/emojis/obstacles/tomato-emoji.png");
-  faceEmoji = loadImage("../assets/emojis/player/face-savouring-food-emoji.png");
-  donutEmoji = loadImage("../assets/emojis/treats/doughnut-emoji.png");
-  treatScoreImg = loadImage("../assets/emojis/treats/doughnut-emoji.png");
-  scoreImg = loadImage("../assets/emojis/player/face-savouring-food-emoji.png");
-  highScoreImg = loadImage("../assets/emojis/trophy_emoji.png")
-  bgcookie = loadImage("../assets/backgrounds/cookie_background.jpg");
-  bglollie = loadImage("../assets/backgrounds/lollie_background.jpg");
-  bgmintchoc = loadImage("../assets/backgrounds/mint_chocolate_chip_background.jpg");
-  crashSound = loadSound("../assets/sounds/crash_sound.flac");
-  pingSound = loadSound("../assets/sounds/ping_sound.wav");
-  myFont = loadFont("../assets/font/Pacifico-Regular.ttf");
+  obstacleEmoji = loadImage("assets/emojis/obstacles/tomato-emoji.png");
+  faceEmoji = loadImage("assets/emojis/player/face-savouring-food-emoji.png");
+  donutEmoji = loadImage("assets/emojis/treats/doughnut-emoji.png");
+  treatScoreImg = loadImage("assets/emojis/treats/doughnut-emoji.png");
+  scoreImg = loadImage("assets/emojis/player/face-savouring-food-emoji.png");
+  highScoreImg = loadImage("assets/emojis/trophy_emoji.png")
+  bgcookie = loadImage("assets/backgrounds/cookie_background.jpg");
+  bglollie = loadImage("assets/backgrounds/lollie_background.jpg");
+  bgmintchoc = loadImage("assets/backgrounds/mint_chocolate_chip_background.jpg");
+  crashSound = loadSound("assets/sounds/crash_sound.flac");
+  pingSound = loadSound("assets/sounds/ping_sound.wav");
+  myFont = loadFont("assets/font/Pacifico-Regular.ttf");
 }
 
 function setup() {
